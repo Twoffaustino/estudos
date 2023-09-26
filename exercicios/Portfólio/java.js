@@ -65,6 +65,7 @@ var typed = new Typed('.multiple-text', {
     var res = window.document.getElementById(`res`);
         fnome = (nome.value)
         fcom = (com.value)
+        fyhg
        
     res.innerHTML += ` <strong>${fnome}:</strong> ${fcom}`  
 
