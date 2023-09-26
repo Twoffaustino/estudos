@@ -616,6 +616,102 @@ img.link{
     }
 }
 
+@media(max-width: 375px){
+    #menu-icon {
+        display: block;
+    }
+    .portfolio-layer h4 {
+        font-size: 2rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 1rem;
+        margin: .2rem 0 1rem;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+        
+        
+    }
+
+    .navbar.active{
+        display: block;
+    }
+
+    
+
+    .navbar a {
+        display: block;
+        font-size: 1rem;
+        margin: 3rem 0 ;
+    }
+    
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .about-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 50vw;
+        margin-top: 4rem;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .personal img {
+        width: 40vw;
+        margin-top: 4rem;
+    }
+
+    .service h2 {
+        margin-bottom: 2rem;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(3, 1fr);
+        width: 50vw;
+        
+        
+        
+    }
+
+    .portfolio-layer h4 {
+        font-size: 3rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 2rem;
+        margin: .3rem 0 1rem;
+    }
+    
+
+    
+}
+
+
+
 .comentario-box{
     background: var(--second-bg-color);
     text-align: center;
