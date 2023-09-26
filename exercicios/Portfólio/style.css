@@ -617,10 +617,7 @@ img.link{
 }
 
 @media(max-width: 375px){
-    .header {
-       width: 50vw;
-    }
-
+    
 }
 
 .comentario-box{
