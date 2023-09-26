@@ -617,9 +617,8 @@ img.link{
 }
 
 @media(max-width: 375px){
-    #menu-icon {
-        display: block;
-        margin-right: 600px;
+    .header {
+       width: 50vw;
     }
 
 }
