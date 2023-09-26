@@ -2,7 +2,7 @@ let menuIcon = document.querySelector(`#menu-icon`);
 let navbar = document.querySelector(`.navbar`);
 
 
-
+res.innerHTML = ` <strong>${localStorage.getItem(`nome`)}:</strong> ${localStorage.getItem(`com`)}`
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -65,8 +65,12 @@ var typed = new Typed('.multiple-text', {
     var res = window.document.getElementById(`res`);
         fnome = (nome.value)
         fcom = (com.value)
-        
-    
+       
+    res.innerHTML += ` <strong>${fnome}:</strong> ${fcom}`  
 
-    res.innerHTML = `<strong>${fnome}</strong>: ${fcom}`
+    localStorage.setItem(`nome`, fnome);
+    localStorage.setItem(`com`, fcom);
 };
+
+
+
